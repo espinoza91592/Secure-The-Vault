@@ -1,29 +1,23 @@
-/*
-5+5
-10*4
-50-11
+//Algorithm To Find the Secret Vault
 
-*/
 
-// this is pseudocode
+// To solve this problem, you need to calculate the vault codes
+// by using arithmetics and store them in variables
+// Then display a welcome message to the sage cracker
+// with the secret combination
 
-/* 
-input the first number which is 5
-input the second number which is also 5
-add them together
-it equals 10
+// Create a variable named first Num that will store
+// The result of 5+5
+const firstNum = 5 + 5;
 
-*/
-/* 
-input the first number which is 10
-input the second number which is 4
-multiply the two
-it euals 40
-*/
+// Create a variable secondNum that will store
+// the result of 10*4
+const secondNum = 10 * 4;
 
-/*
-input the first number which is 50
-input the second number which is 11
-subtract the twon numbers
-it equals 39
-*/
+// Create a variable thirdNum that will calculate the
+// difference between 50 and 11
+const thirdNum = 50 - 11;
+
+//Display welcom message to the safe cracker
+const string ='You have received this message because you have been chosen to open an important vault. Here is the secret combination:'
+
